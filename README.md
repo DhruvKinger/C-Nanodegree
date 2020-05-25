@@ -22,3 +22,10 @@
   * cout<<x<<" ";  }
   * cout<<"\n";   }
 
+### Recap
+* That's it! To recap, there are essentially four steps to reading a file:
+
+* #include <fstream>
+* Create a std::ifstream object using the path to your file.
+* Evaluate the std::ifstream object as a bool to ensure that the stream creation did not fail.
+* Use a while loop with getline to write file lines to a string.
