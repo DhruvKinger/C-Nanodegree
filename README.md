@@ -17,12 +17,8 @@
   
   ### Print 2D Vector
   * vector<vector<int>> b;
-  * for(auto i:b)
-  {
-  for(auto x:i)
-  {
-  cout<<x<<" ";
-  }
-  cout<<"\n";
-  }
+  * for(auto i:b)  {
+  * for(auto x:i)  {
+  * cout<<x<<" ";  }
+  * cout<<"\n";   }
 
