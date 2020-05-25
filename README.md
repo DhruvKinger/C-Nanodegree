@@ -14,3 +14,15 @@
 ### Size of 2D Vector
   * vector<vector<int>> x;
   * cout<<x[0].size();
+  
+  ### Print 2D Vector
+  * vector<vector<int>> b;
+  * for(auto i:b)
+  {
+  for(auto x:i)
+  {
+  cout<<x<<" ";
+  }
+  cout<<"\n";
+  }
+
