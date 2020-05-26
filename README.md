@@ -29,3 +29,5 @@
 * Create a std::ifstream object using the path to your file.
 * Evaluate the std::ifstream object as a bool to ensure that the stream creation did not fail.
 * Use a while loop with getline to write file lines to a string.
+
+![](https://video.udacity-data.com/topher/2019/September/5d72d89a_l3-intro-1/l3-intro-1.png)
