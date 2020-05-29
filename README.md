@@ -40,3 +40,6 @@
 ![](https://video.udacity-data.com/topher/2019/September/5d72dd2d_l4-intro/l4-intro.png)
 
 ![](https://video.udacity-data.com/topher/2019/September/5d78129f_8e0935d2-6391-4e89-84fd-7a424a090cff/8e0935d2-6391-4e89-84fd-7a424a090cff.png)
+
+* [GDB Cheat Sheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
+
