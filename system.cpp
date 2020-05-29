@@ -17,24 +17,27 @@ using std::vector;
 Processor& System::Cpu() { return cpu_; }
 
 // TODO: Return a container composed of the system's processes
-vector<Process>& System::Processes() { return processes_; }
+vector<Process>& System::Processes() { 
+  return processes_; 
+}
 
-// done
+
 std::string System::Kernel() { return  LinuxParser::Kernel(); }
 
-// done
 float System::MemoryUtilization() { return LinuxParser::MemoryUtilization(); }
 
-//done
+
 std::string System::OperatingSystem() { return LinuxParser::OperatingSystem(); }
 
-// TODO: Return the number of processes actively running on the system
+
 int System::RunningProcesses() {  return LinuxParser::RunningProcesses(); }
 
-// TODO: Return the total number of processes on the system
-int System::TotalProcesses() { return 0; }
 
-// done
+int System::TotalProcesses() { 
+  return LinuxParser::TotalProcesses();
+}
+
+
 long int System::UpTime() {
   return LinuxParser::UpTime();
                           }
