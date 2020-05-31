@@ -43,3 +43,7 @@
 
 * [GDB Cheat Sheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 
+### Syntax of Calloc and Malloc
+* pointer_name = (cast-type*) malloc(size);
+* pointer_name = (cast-type*) calloc(num_elems, size_elem);
+
